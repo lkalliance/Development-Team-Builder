@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "start": "node index"
   },
   "repository": {
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/lkalliance/module-10-challenge/issues"
   },
-  "homepage": "https://github.com/lkalliance/module-10-challenge#readme"
+  "homepage": "https://github.com/lkalliance/module-10-challenge#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
 }
