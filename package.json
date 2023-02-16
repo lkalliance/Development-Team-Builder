@@ -1,0 +1,29 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Scripts to generate a webpage with a development team's basic info",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkalliance/module-10-challenge.git"
+  },
+  "author": "Lee Klusky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lkalliance/module-10-challenge/issues"
+  },
+  "homepage": "https://github.com/lkalliance/module-10-challenge#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
