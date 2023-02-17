@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/lkalliance/module-10-challenge#readme",
   "dependencies": {
+    "email-validator": "^2.0.4",
     "inquirer": "^8.2.4"
   },
   "devDependencies": {
