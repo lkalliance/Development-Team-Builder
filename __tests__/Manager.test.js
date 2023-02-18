@@ -13,6 +13,13 @@ describe('Validation', () => {
 
         expect(cb).toThrowError.err;
     });
+    it('Should throw an error if ID not unique', () => {
+        const cb = () => new intern("j",1,"d","425-555-1212");
+        const cb2 = () => new intern("j",1,"d","425-555-1212");
+        const err = new Error("This ID is already assigned to a different employee");
+
+        expect(cb2).toThrowError.err;
+    });
     it('Should throw an error if not provided with a valid email', () => {
         const cb = () => new manager("j",1,"","425-555-1212");
         const err = new Error("Please enter a valid email address");
