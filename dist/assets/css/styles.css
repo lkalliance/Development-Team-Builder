@@ -1,0 +1,53 @@
+div.card {
+    width: 250px;
+}
+
+div.card-body {
+    background-color: rgb(4, 4, 147);
+    padding: 8px;
+    padding-left: 16px;
+    color: white;
+}
+
+h5.card-title {
+    margin-bottom: 0;
+    position: relative;
+}
+
+h5.card-title span {
+    font-size: .5em;
+    font-weight: normal;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 3px 6px;
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+}
+
+div.card .list-group-item {
+    font-size: .8em;
+    padding: 4px 16px 4px 28px;
+    background-repeat: no-repeat;
+    background-position: 6px 50%;
+}
+
+div.card .id {
+    background-image: url('../images/card.png');
+}
+
+div.card .mail {
+    background-image: url('../images/mail.png');
+}
+
+div.card .code {
+    background-image: url('../images/code.png');
+}
+
+div.card .phone {
+    background-image: url('../images/phone-call.png');
+}
+
+div.card .school {
+    background-image: url('../images/graduation-hat.png');
+}
