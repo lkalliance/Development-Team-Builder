@@ -1,5 +1,6 @@
-const create = require('./lib/prompts.js');
-console.log(create)
+const create = require('./lib/prompts');
+const build = require('./lib/buildCode');
+
 init();
 
 function init() {
@@ -8,6 +9,7 @@ function init() {
     // initiate directory array
 
     console.log(`Welcome!\n`);
+    console.log(`\nIt's time to build out your team. First, let's start with a manager.\n\n`)
     create.manager([]);
 }
 
