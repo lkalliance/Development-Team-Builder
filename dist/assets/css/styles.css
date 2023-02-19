@@ -1,12 +1,21 @@
+:root {
+    --card-border: 10px;
+}
+
 div.card {
     width: 250px;
+    border: none;
+    margin: 10px;
+    border-radius: var(--card-border);
+    box-shadow: 3px 3px 3px #cccccc;
 }
 
 div.card-body {
     background-color: rgb(4, 4, 147);
     padding: 8px;
-    padding-left: 16px;
+    padding-left: 12px;
     color: white;
+    border-radius: var(--card-border) var(--card-border) 0 0;
 }
 
 h5.card-title {
@@ -25,11 +34,21 @@ h5.card-title span {
     bottom: 2px;
 }
 
+div.card>.list-group {
+    border: 1px solid #cccccc;
+}
+
+div.card>.list-group:last-child {
+    border-bottom-width: 1px;
+    border-bottom-right-radius: var(--card-border);
+    border-bottom-left-radius: var(--card-border);
+}
+
 div.card .list-group-item {
     font-size: .8em;
-    padding: 4px 16px 4px 28px;
+    padding: 4px 16px 4px 35px;
     background-repeat: no-repeat;
-    background-position: 6px 50%;
+    background-position: 12px 50%;
 }
 
 div.card .id {
