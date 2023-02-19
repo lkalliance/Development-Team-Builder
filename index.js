@@ -1,5 +1,5 @@
 const create = require('./lib/prompts.js');
-
+console.log(create)
 init();
 
 function init() {
@@ -10,3 +10,7 @@ function init() {
     console.log(`Welcome!\n`);
     create.manager([]);
 }
+
+create.finished.on('Done with prompts', (arg) => {
+    console.log(arg);
+}) 
