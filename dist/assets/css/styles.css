@@ -24,6 +24,15 @@ section {
     margin: 20px auto;
 }
 
+div.col {
+    max-width: 350px;
+}
+
+div.col-4,
+div.col-6 {
+    margin: 0 auto;
+}
+
 div.card {
     padding: 0;
     margin: 12px 0;
@@ -91,4 +100,17 @@ div.card .phone {
 
 div.card .school {
     background-image: url('../images/graduation-hat.png');
+}
+
+
+
+@media screen and (max-width: 576px) {
+    div.row {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    div.col {
+        margin-bottom: 30px;
+    }
 }
