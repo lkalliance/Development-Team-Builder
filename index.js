@@ -6,7 +6,7 @@ init();
 
 function init() {
     // Welcome the user
-    // call to ask for managerd
+    // call to ask for manager
     // initiate directory array
 
     console.log(`Welcome!\n`);

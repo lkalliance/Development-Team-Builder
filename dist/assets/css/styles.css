@@ -2,6 +2,8 @@
     --card-border: 10px;
 }
 
+/* HEADER STYLES */
+
 header {
     background-color: lightblue;
     padding: 20px 0;
@@ -18,10 +20,12 @@ header span {
     display: inline-block;
 }
 
+/* MAIN BODY STYLES */
+
 section {
-    max-width: 960px;
-    padding: 0 10px;
     margin: 20px auto;
+    padding: 0 10px;
+    max-width: 960px;
 }
 
 div.col {
@@ -34,8 +38,8 @@ div.col-6 {
 }
 
 div.card {
-    padding: 0;
     margin: 12px 0;
+    padding: 0;
     border: none;
     border-radius: var(--card-border);
     box-shadow: 3px 3px 3px #cccccc;
@@ -82,6 +86,8 @@ div.card .list-group-item {
     background-position: 12px 50%;
 }
 
+/* INFO ICONS */
+
 div.card .id {
     background-image: url('../images/card.png');
 }
@@ -103,6 +109,7 @@ div.card .school {
 }
 
 
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 576px) {
     div.row {
