@@ -90,6 +90,11 @@ div.card .list-group-item {
     background-position: 12px 50%;
 }
 
+div.card span.label {
+    position: absolute;
+    left: -5000px;
+}
+
 /* INFO ICONS */
 
 div.card .id {
