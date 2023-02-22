@@ -1,5 +1,7 @@
 # Development Team Builder [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<img src="./dist/assets/images/output-screenshot.png" width="400" style="float: right; margin-left: 20px;">
+
 ## Description
 
 The Development Team Builder is a CLI application that accepts input from the user about a the employees on their development team, and outputs an HTML file with that information arranged in an org-chart-type layout.
@@ -20,6 +22,9 @@ The Development Team Builder is a CLI application that accepts input from the us
 The Development Team Builder runs on Node.js. This version was developed and tested on version 18.13.0. It has two dependencies, both third-party modules available through npmjs: email-validator (v. 2.0.4) and inquirer (v. 8.2.4). The output file is best read in any web browser.
 
 
+
+<img src="./dist/assets/images/screenshot-progression.gif" width="400" style="float: right; margin-left: 20px;">
+
 ## Usage Information
 
 To use the Development Team Builder, within Node.js run the index.js file at the top level of the application's directory.
@@ -32,6 +37,8 @@ There is some validation as the user enters the information:
 * Phone numbers must be at least seven digits
 
 Once the user has indicated they are done, the Development Team Builder generates a file, `./dist/index.html`, which the user can view in any Web browser. Re-running the application overwrites this file.
+
+Here is a [video walkthrough](https://drive.google.com/file/d/1VLi8YvojMX5QrqChyq7Zivtxi2LwzCJP/view?usp=sharing) of the application in action.
 
 
 ## Application Features
