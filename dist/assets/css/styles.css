@@ -119,6 +119,7 @@ div.card .school {
     div.row {
         max-width: 350px;
         margin: 0 auto;
+        justify-content: start;
     }
 
     div.col {
