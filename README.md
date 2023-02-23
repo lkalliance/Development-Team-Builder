@@ -38,7 +38,7 @@ There is some validation as the user enters the information:
 
 Once the user has indicated they are done, the Development Team Builder generates a file, `./dist/index.html`, which the user can view in any Web browser. Re-running the application overwrites this file.
 
-Here is a [video walkthrough](https://drive.google.com/file/d/1VLi8YvojMX5QrqChyq7Zivtxi2LwzCJP/view?usp=sharing) of the application in action.
+Here is a [video walkthrough](https://drive.google.com/file/d/1M7f3tRUZuRxcDtvY_oyepS2mEa_-ZAIN/view?usp=sharing) of the application in action.
 
 
 ## Application Features
