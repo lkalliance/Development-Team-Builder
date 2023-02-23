@@ -4,7 +4,7 @@
 
 ## Description
 
-The Development Team Builder is a CLI application that accepts input from the user about a the employees on their development team, and outputs an HTML file with that information arranged in an org-chart-type layout.
+The Development Team Builder is a CLI application that accepts input from the user about employees on their development team, and outputs an HTML file with that information arranged in an org-chart-type layout.
 
 
 ## Table of Contents
@@ -29,7 +29,7 @@ The Development Team Builder runs on Node.js. This version was developed and tes
 
 To use the Development Team Builder, within Node.js run the index.js file at the top level of the application's directory.
 
-The user is first asked to enter the information of the Manager (name, employee id, email and phone). Ssubsequently (and as many times as the user likes), they are asked if they would like to enter another employee: either an Engineer (name, employee id, email and GitHub id) or an Intern (name, employee id, email and school). The third option is to indicate that they are done entering employees.
+The user is first asked to enter the information of the Manager (name, employee id, email and phone). Subsequently (and as many times as the user likes), they are asked if they would like to enter another employee: either an Engineer (name, employee id, email and GitHub id) or an Intern (name, employee id, email and school). The third option is to indicate that they are done entering employees.
 
 There is some validation as the user enters the information:
 * Employee id's must be unique
